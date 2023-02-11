@@ -1,0 +1,85 @@
+*{
+    font-family: 'Cardo', serif;
+}
+
+header{
+    background-color: #0a003b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.logo{
+    height: 100%;
+    padding-left: 10px;
+}
+
+.titulo{
+    padding: 5px;
+    position: relative;
+    left: -24%;
+    width: 30%;
+    height: 90%;
+}
+
+nav .navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    height: 55%;
+}
+
+.navegacao li a{
+    font-weight: bold;
+    color: #D9D9D9;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.navegacao li a:hover{
+    background-color: #D9D9D9;
+    color: #0a003b;
+}
+
+section h2{
+    color: #D9D9D9;
+    background-color: #353535;
+    height: calc(20vh - 90px);
+    padding-top: 50px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.rpg{
+    background-color: chartreuse;
+    display: flex;
+    height: 100%;
+    padding: 50px 20%;
+}
+
+
+.rpg .texto-rpg{
+    height: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.capa-rpg{
+    width: 110%;
+}
+
+.titulo-rpg{
+    text-align: center;
+}
+
+.descricao-rpg{
+    margin-left: 60%;
+    width: 30%;
+    font-size: 25px;
+}

@@ -47,15 +47,16 @@ nav .navegacao{
 
 section h2{
     color: #D9D9D9;
-    background-color: #353535;
+    background-color: rgb(13, 13, 25);
     height: calc(20vh - 90px);
     padding-top: 50px;
     text-align: center;
     font-size: 60px;
+    text-decoration: underline;
 }
 
 .rpg{
-    background-color: chartreuse;
+    background-color: rgb(13, 13, 25);
     display: flex;
     height: 100%;
     padding: 50px 20%;
@@ -64,22 +65,32 @@ section h2{
 
 .rpg .texto-rpg{
     height: 100%;
-    background-color: antiquewhite;
-    display: flex;
-    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    border-radius: 20px;
 }
 
 
 .capa-rpg{
-    width: 110%;
+    width: 100%;
+}
+
+.titulo-um{
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .titulo-rpg{
     text-align: center;
+    color: #D9D9D9;
 }
+
+
 
 .descricao-rpg{
     margin-left: 60%;
     width: 30%;
     font-size: 25px;
+    color: #D9D9D9;
 }
+

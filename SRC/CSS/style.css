@@ -1,0 +1,185 @@
+*{
+    font-family: 'Cardo', serif;
+}
+
+header{
+    background-image: url(/SRC/imagens/faixa.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.logo{
+    height: 100%;
+    padding-left: 10px;
+}
+
+.titulo{
+    padding: 5px;
+    position: relative;
+    left: -24%;
+    width: 30%;
+    height: 90%;
+}
+
+header nav{
+    padding-top: 20px;
+}
+
+nav .navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    height: 55%;
+}
+
+.navegacao li a{
+    font-weight: bold;
+    color: #D9D9D9;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.navegacao li a:hover{
+    background-color: #D9D9D9;
+    color: #0a003b;
+}
+
+.fundo{
+    width: 100%;
+    background-image: url(/SRC/imagens/fundo-dois.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+
+.sobre div{
+    text-align: center;
+    background-color: #0d0d19;
+    padding-top: 2.5%;
+    height: 100%;
+}
+
+.sobre div h1{
+    padding-bottom: 1%;
+    font-size: 60px;
+    text-decoration: underline;
+    color: #D9D9D9;
+}
+
+.sobre div p{
+    color: #D9D9D9;
+    font-size: 25px;
+    padding-bottom: 2.5%;
+}
+
+.sobre div .linha{
+    background-color: #D9D9D9;
+    padding: 0;
+    position: absolute;
+    margin-left: 2.5%;
+    width: 90%;
+    height: 1px;
+    border-radius: 20px;
+}
+
+section .livros{
+    color: #D9D9D9;
+    background-color: rgb(13, 13, 25);
+    height: calc(20vh - 90px);
+    padding-top: 50px;
+    text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+.rpg{
+    background-color: #0d0d19;
+    display: flex;
+    height: 100%;
+    padding: 50px 15%;
+}
+
+
+.rpg .texto-rpg{
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    width: 90%;
+    border-radius: 20px;
+}
+
+
+.capa-rpg{
+    width: 95%;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.titulo-um{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.titulo-rpg{
+    text-align: center;
+    color: #D9D9D9;
+}
+
+.descricao-rpg{
+    position: relative;
+    left: 20%;
+    font-size: 25px;
+    color: #D9D9D9;
+}
+
+footer{
+    background-color: forestgreen;
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+
+}
+
+.contato{
+    width: 50%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    height: 100%;
+    color: #D9D9D9;
+    background-color: #000414;
+}
+
+.contato p{
+    font-size: 30px;
+    margin-bottom: 0.7%;
+}
+
+.contato .github a{
+    font-weight: bold;
+    color: #D9D9D9;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.contato .github a:hover{
+    background-color: #D9D9D9;
+    color: #0a003b;
+}
+
+.informacoes{
+    width: 50%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    height: 100%;
+    background-color: #000414;
+    color: #D9D9D9;
+    font-size: 20px;
+}

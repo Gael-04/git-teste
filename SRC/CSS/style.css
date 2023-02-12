@@ -54,7 +54,7 @@ nav .navegacao{
     width: 100%;
     background-image: url(/SRC/imagens/fundo-dois.png);
     background-repeat: repeat-y;
-    background-size: cover;
+    background-size: contain;
     padding-left: 1.5%;
     padding-right: 1.5%;
 }
@@ -136,13 +136,24 @@ section .livros{
     left: 20%;
     font-size: 25px;
     color: #D9D9D9;
+    margin-right: 15%;
+}
+
+section .linha{
+    background-color: #D9D9D9;
+    padding: 0;
+    position: absolute;
+    margin-left: 10%;
+    width: 75%;
+    height: 1px;
+    border-radius: 20px;
 }
 
 footer{
     background-color: forestgreen;
     display: flex;
     flex-direction: row;
-    height: 90px;
+    height: 95px;
 
 }
 

@@ -2,38 +2,40 @@
     font-family: 'Cardo', serif;
 }
 
+body{
+    width: 100%;
+    height: 100%;
+}
+
 header{
     background-image: url(/SRC/imagens/faixa.png);
     background-size: cover;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     height: 90px;
+    width: 100%;
 }
 
 .logo{
-    height: 100%;
-    padding-left: 10px;
+    padding-left: 1%;
 }
 
 .titulo{
     padding: 5px;
-    position: relative;
-    left: -24%;
-    width: 30%;
-    height: 90%;
+    width: 100%;
+    max-width: 550px;
 }
 
 header nav{
-    padding-top: 20px;
+width: 100%;
+margin-top: 1.5%;
 }
 
 nav .navegacao{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 50%;
-    height: 55%;
+    align-items: flex-end;
+    justify-content: right;
+    width: 100%;
 }
 
 .navegacao li a{
@@ -150,10 +152,10 @@ section .linha{
 }
 
 footer{
-    background-color: forestgreen;
+    background-color: #000414;
     display: flex;
     flex-direction: row;
-    height: 95px;
+    height: fit-content;
 
 }
 

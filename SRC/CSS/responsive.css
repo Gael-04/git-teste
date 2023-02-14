@@ -1,0 +1,183 @@
+@media screen and (max-width: 1200px){
+    header{
+        height: 75px;
+    }
+    
+    .titulo{
+        margin-top: 2%;
+        width: 50%;
+        height: 50%;
+    }
+
+    .logo{
+        width: 88px;
+        height: 80px;
+    }
+
+    header nav{
+        width: 100%;
+        margin-top: 3%;
+        }
+
+    .navegacao li a{
+        font-size: 20px;
+    }
+
+    .sobre div h1{
+        padding-bottom: 2%;
+        font-size: 40px;
+    }
+
+    .sobre div p{
+        font-size: 20px;
+    }
+
+    section .livros{
+        font-size: 40px;
+    }
+
+    .rpg .texto-rpg{
+        width: 1000px;
+    }
+
+    .capa-rpg{
+        padding-top: 10px;
+    }
+
+    .titulo-um{
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+     .titulo-dois{
+        font-size: 15px;
+    }
+
+    .descricao-rpg{
+        left: 25%;
+        font-size: 20px;
+    }
+
+    .informacoes{
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 700px){
+    header{
+        height: 60px;
+    }
+    
+    .titulo-um{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .titulo-dois{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    header{
+        height: 60px;
+    }
+    
+    .titulo{
+        margin-top: 5%;
+        width: 100%;
+        height: 37%;
+    }
+
+    .logo{
+        margin-top: 2%;
+        width: 55px;
+        height: 50px;
+    }
+
+    header nav{
+        margin-top: 5%;
+        margin-left: 4.5%;
+    }
+    
+    nav .navegacao{
+        justify-content: left;
+    }
+
+    .navegacao li a{
+        font-size: 15px;
+    }
+
+    .navegacao li a{
+        font-size: 15px;
+        padding: 5px 5px;
+    }
+
+    .sobre div h1{
+        padding-bottom: 4%;
+        font-size: 25px;
+    }
+
+    .sobre div p{
+        font-size: 15px;
+    }
+
+    section .livros{
+        font-size: 30px;
+    }
+
+    .rpg .texto-rpg{
+        width: 100000px;
+    }
+
+    .capa-rpg{
+        padding-top: 10px;
+    }
+
+    .titulo-um{
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+     .titulo-dois{
+        font-size: 11px;
+    }
+
+    .descricao-rpg{
+        left: 15%;
+        font-size: 14px;
+    }
+
+    .informacoes{
+        font-size: 10px;
+    }
+
+    .contato p{
+        font-size: 20px;
+    }
+    
+    .contato .github a{
+        font-size: 18px;
+        padding: 5px 10px;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .sobre div h1{
+        padding-bottom: 4%;
+        font-size: 20px;
+    }
+
+    .sobre div p{
+        font-size: 13px;
+    }
+    
+    section .livros{
+        font-size: 25px;
+    }
+
+    .descricao-rpg{
+        font-size: 13px;
+    }
+}

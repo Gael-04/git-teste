@@ -1,8 +1,11 @@
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1300px){
     header{
         height: 75px;
+        background-image: url(/SRC/imagens/faixa.png);
+        background-position: center;
+        overflow: hidden;
     }
-    
+
     .titulo{
         margin-top: 2%;
         width: 50%;
@@ -76,6 +79,10 @@
 
     .titulo-dois{
         font-size: 13px;
+    }
+
+    footer{
+        height: fit-content;
     }
 }
 
